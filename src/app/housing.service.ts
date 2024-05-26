@@ -8,7 +8,7 @@ export class HousingService {
 
   constructor() { }
 
-  protected housingLocationList: HousingLocation[] = [
+   housingLocationList: HousingLocation[] = [
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
