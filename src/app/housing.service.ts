@@ -110,7 +110,7 @@ export class HousingService {
       laundry: true,
     },
     {
-      id: 8,
+      id: 10,
       name: 'Seriously Safe Towns',
       city: 'Oakland',
       state: 'CA',
@@ -120,7 +120,7 @@ export class HousingService {
       laundry: false,
     },
     {
-      id: 9,
+      id: 11,
       name: 'Capital Safe Towns',
       city: 'Portland',
       state: 'OR',
