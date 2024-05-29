@@ -5,10 +5,11 @@ import { HousingLocation } from './housinglocation';
   providedIn: 'root'
 })
 export class HousingService {
+url = 'http://localhost:3000/locations';
 
   constructor() { }
 
-   housingLocationList: HousingLocation[] = [
+  //  housingLocationList: HousingLocation[] = [
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
@@ -129,8 +130,9 @@ export class HousingService {
       wifi: true,
       laundry: true,
     },
-  ];
-
+// ];
+    
+    
   getAllHousingLocations(): HousingLocation[] {
     return this.housingLocationList;
   }
