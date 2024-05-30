@@ -9,7 +9,7 @@ export class HousingService {
   baseUrl = 'https://th.bing.com/th/id/OIP'
 
   constructor() { }
-
+ //http://localhost:3000/locations?id=0
   //  housingLocationList: HousingLocation[] = [
     // {
     //   id: 0,
